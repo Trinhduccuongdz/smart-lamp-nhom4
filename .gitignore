@@ -1,0 +1,30 @@
+# Kết quả biên dịch (Makefile / arm-none-eabi-gcc)
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# Kết quả biên dịch của Keil
+keil/Objects/
+keil/Listings/
+*.axf
+*.lst
+*.crf
+*.dep
+*.lnp
+*.htm
+*.sct
+*.bak
+
+# File cấu hình giao diện cá nhân của Keil (vị trí cửa sổ, file đang mở)
+*.uvguix.*
+JLinkLog.txt
+EventRecorderStub.scvd
+
+# File tạm của hệ điều hành và IDE khác
+.vscode/
+.DS_Store
+Thumbs.db
